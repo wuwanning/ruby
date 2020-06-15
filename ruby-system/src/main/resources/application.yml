@@ -2,6 +2,14 @@ server:
   port: 8001
 
 spring:
+  application:
+    name: nacos
+    cloud:
+      nacos:
+        config:
+          server-addr: 127.0.0.1:8848
+        discovery:
+          server-addr: 127.0.0.1:8848
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource             # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver               #驱动包
@@ -32,6 +40,11 @@ spring:
     # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 ruby:
   druid:
     username: neil

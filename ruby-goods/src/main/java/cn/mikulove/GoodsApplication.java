@@ -13,10 +13,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("cn.mikulove.mapper")
-public class SystemApplication {
+public class GoodsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SystemApplication.class, args);
+        SpringApplication.run(GoodsApplication.class, args);
     }
 }
