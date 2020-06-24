@@ -10,9 +10,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>ruby-goods</module>
+        <module>ruby-common</module>
+        <module>ruby-gateway</module>
         <module>ruby-order</module>
+        <module>ruby-product</module>
         <module>ruby-system</module>
+        <module>renren-generator</module>
     </modules>
 
     <parent>
@@ -36,6 +39,8 @@
         <druid.version>1.1.16</druid.version>
         <swagger2.version>2.9.2</swagger2.version>
         <fastjson.version>1.2.58</fastjson.version>
+        <mybatisplus.version>3.3.2</mybatisplus.version>
+        <validation.version>2.0.1.Final</validation.version>
     </properties>
 
     <dependencyManagement>
@@ -84,11 +89,27 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger2.version}</version>
             </dependency>
+            <!--MP -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
             <!--other -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${validation.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
