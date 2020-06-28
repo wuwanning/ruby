@@ -3,10 +3,16 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/renren-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruby-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruby-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruby-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruby-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby-product/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruby-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruby-system/src/main/java" charset="UTF-8" />
   </component>
 </project>
