@@ -1,6 +1,6 @@
-package cn.mikulove.exception;
+package cn.mikulove.common.exception;
 
-import cn.mikulove.result.Result;
+import cn.mikulove.common.response.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

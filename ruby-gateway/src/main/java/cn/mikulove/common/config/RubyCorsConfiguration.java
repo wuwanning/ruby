@@ -1,4 +1,4 @@
-package cn.mikulove.config;
+package cn.mikulove.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

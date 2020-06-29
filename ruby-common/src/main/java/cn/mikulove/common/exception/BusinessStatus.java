@@ -1,4 +1,4 @@
-package cn.mikulove.exception;
+package cn.mikulove.common.exception;
 
 /**
  * @Name:BusinessStatus

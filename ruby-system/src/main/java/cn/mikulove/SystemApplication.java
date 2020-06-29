@@ -13,7 +13,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("cn.mikulove.mapper")
+@MapperScan("cn.mikulove.system.dao")
 public class SystemApplication {
 
     public static void main(String[] args) {

@@ -6,10 +6,14 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://rm-bp1l1021y100jllwrbo.mysql.rds.aliyuncs.com:3306/db_sca?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2B8&characterEncoding=utf8 # 数据库名称
-    username: neil
-    password: Pass1234
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://rm-bp1l1021y100jllwrbo.mysql.rds.aliyuncs.com:3306/db_sca?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2B8&characterEncoding=utf8 # 数据库名称
+#    username: neil
+#    password: Pass1234
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_ruby?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2B8&characterEncoding=utf8 # 数据库名称
+    username: root
+    password: 520520
     #oracle配置
     #    driverClassName: oracle.jdbc.OracleDriver
     #    url: jdbc:oracle:thin:@47.100.206.162:1521:xe

@@ -1,6 +1,7 @@
 package cn.mikulove.controller;
 
 
+import cn.mikulove.common.response.Result;
 import cn.mikulove.entity.GoodsEntity;
 import cn.mikulove.service.GoodsService;
 import com.baomidou.mybatisplus.extension.api.R;
@@ -25,6 +26,7 @@ import java.util.Map;
 public class GoodsController {
     @Autowired
     private GoodsService goodsService;
+
 
    /* *//**
      * 列表
