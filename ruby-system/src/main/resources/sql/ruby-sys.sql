@@ -75,9 +75,20 @@ CREATE TABLE `t_sys_role_menu`
 -- 系统验证码
 CREATE TABLE `t_sys_captcha`
 (
-    `id`          char(36)   NOT NULL COMMENT 'id',
+    `id`          bigint NOT NULL COMMENT 'id',
     `code`        varchar(6) NOT NULL COMMENT '验证码',
     `expire_time` datetime DEFAULT NULL COMMENT '过期时间',
+    PRIMARY KEY (`id`)
+) ENGINE = `InnoDB`
+  DEFAULT CHARACTER SET utf8mb4 COMMENT ='系统验证码表';
+
+-- 系统参数
+CREATE TABLE `t_sys_param`
+(
+    `id`          bigint NOT NULL COMMENT 'id',
+    `param_code`        varchar(20) NOT NULL COMMENT '参数代码',
+    `param_value`        varchar(255) NOT NULL COMMENT '参数值',
+    `memo`        varchar(255) NOT NULL COMMENT '备注',
     PRIMARY KEY (`id`)
 ) ENGINE = `InnoDB`
   DEFAULT CHARACTER SET utf8mb4 COMMENT ='系统验证码表';
