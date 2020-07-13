@@ -12,10 +12,10 @@ spring:
           server-addr: 127.0.0.1:8848
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource             # 当前数据源操作类型
-    driver-class-name: com.mysql.cj.jdbc.Driver               #驱动包
-    url: jdbc:mysql://rm-bp1l1021y100jllwrbo.mysql.rds.aliyuncs.com:3306/db_ruby_sys?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2B8&characterEncoding=utf8 # 数据库名称
-    username: neil
-    password: Pass1234
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_ruby?useUnicode=true&useJDBCCompliantTimezoneShift=true&serverTimezone=GMT%2B8&characterEncoding=utf8 # 数据库名称
+    username: root
+    password: 520520
     # 连接池的配置信息:初始化大小，最小，最大
     initialSize: 1
     minIdle: 1
