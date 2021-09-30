@@ -5,16 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @Name:SystemApplication
+ * @Name:ProductApplication
  * @Description:
  * @Author: Neil
- * @Date: 2020-05-26 18:05
+ * @Date: 2020-08-23 23:04
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SystemApplication {
+public class ProductApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SystemApplication.class, args);
+        SpringApplication.run(ProductApplication.class, args);
     }
 }
